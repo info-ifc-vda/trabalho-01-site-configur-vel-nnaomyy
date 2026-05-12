@@ -1,0 +1,164 @@
+.body-claro{
+    background-image: url(imagens/funco-claro-certo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+ 
+}
+
+.body-escuro{
+    background-image: url(imagens/fundo-certo-escuro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+  
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    margin-top: 8%;
+    margin-bottom: 4%;
+
+}
+
+.tam-img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.titulo{
+   font-family: "Montserrat", sans-serif;
+}
+
+.a{
+    font-family: "Roboto", sans-serif;
+}
+
+.claro{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #2b4566;
+}
+
+.claro .titulo{
+    color: #2b4566;
+}
+
+.claro .a{
+    color: rgb(93, 92, 92);
+}
+
+.escuro{
+    background-color: rgb(43, 69, 102, 0.5);
+    color: rgb(209, 208, 208);
+}
+
+.escuro .titulo{
+    color: white;
+}
+
+.escuro .a{
+    color: rgb(188, 188, 188);
+}
+
+.escuro .nav-link.active{
+    color: #ffffff;
+}
+
+.escuro .seta{
+    background-color: rgb(43, 69, 102, 0.5);
+    color: white;
+}
+
+.escuro-btn{
+    background-image: url(imagens/claro.png);
+    border: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: transparent;
+}
+
+.claro-btn{
+    background-image: url(imagens/escuro.png);
+    border: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: transparent;
+}
+.escuro .carrossel{
+   background-color:  rgb(43, 69, 102, 0.5);
+}
+
+.livros{
+    width: 150px;
+    height: 200px;
+
+}
+
+.claro .select{
+    background-color: #d0dfed;
+    color: #2b4566;
+    border: 0;
+}
+
+.fonte-45{
+    font-size: 18px;
+}
+
+.fonte-45 h1{
+    font-size: 32px;
+}
+
+.fonte-45 h3{
+    font-size: 24px;
+}
+
+.fonte-50{
+    font-size: 16px;
+}
+
+.fonte-50 h1{
+    font-size: 25px;
+}
+
+.fonte-50 h3{
+    font-size: 20px;
+}
+
+.fonte-40{
+    font-size: 20px;
+}
+
+.fonte-40 h1{
+    font-size: 40px;
+}
+
+.fonte-40 h3{
+    font-size: 30px;
+}
+
+.fonte-60{
+    font-size: 25px;
+}
+
+.fonte-60 h1{
+    font-size: 45px;
+}
+
+.fonte-60 h3{
+    font-size: 35px;
+}
+
+.logo{
+    height: 500px;
+    width: 500px;
+    background-image: url(imagens/jacksonnome.png);
+    background-attachment: fixed;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="imagens/tridente.png">
+  <title>WikiJackson</title>
+</head>
+
+<body id="tema3" class="body-claro fonte-45 ">
+
+  <header>
+    <nav id="tema1" class=" navbar navbar-expand-lg claro bg-opacity-50 p-3">
+      <div class="container-fluid ">
+        <a class="titulo navbar-brand" href="#">WikiJackson</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100">
+            <a class="nav-link active tema1" aria-current="page" href="# a">Início</a>
+            <a class="nav-link a" href="#">Explorar</a>
+            <a class="nav-link a" href="#">Comunidade</a>
+
+
+
+            <div class="ms-auto">
+              <select class="ms-auto me-0 rounded-3 select claro" name="fonte" id="fonte" onchange="mudarFonte()">
+                <option value="1">A+ a-</option>
+                <option value="2" id="fonte1">40</option>
+                <option value="3" id="fonte2">50</option>
+                <option value="4" id="fonte3">60</option>
+              </select>
+
+              <button onclick="alterarClass()" id="btn" class="rounded-4 claro-btn">Mudar tema</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="d-flex align-items-center  ">
+      <div id="tema2" class="claro  container py-5 w-75 rounded-5 mb-5">
+        <div class="ms-5">
+          <h1 class="titulo" id="fonte1">Percy Jackson e os Olimpianos</h1>
+
+          <div class="row w-75 py-3">
+            <div class="col-9">
+              <h3 class="titulo">Nova Temporada confirmada!</h3>
+              <p class="text-justify" id="fonte2">A 3ª temporada de Percy Jackson e os Olimpianos foi oficialmente
+                confirmada pelo Disney+ e já está em produção. A nova fase da série será baseada em A Maldição do Titã,
+                terceiro livro da saga escrita por Rick Riordan, e promete expandir ainda mais o universo dos
+                semideuses, introduzindo personagens muito aguardados pelos fãs, como Nico di Angelo, Bianca di Angelo e
+                as Caçadoras de Ártemis. A estreia está prevista para dezembro de 2026. </p>
+              <p class="text-justify">Nos novos episódios, Percy enfrentará ameaças ainda mais perigosas ligadas aos
+                Titãs, enquanto a influência de Cronos começa a crescer e o clima de guerra entre os deuses se torna
+                cada vez mais inevitável. A temporada deve adaptar uma das fases mais sombrias e importantes da história
+                original, trazendo um tom mais maduro e emocional para os personagens. Rick Riordan afirmou que essa
+                será uma “nova experiência para as telas”, já que muitos elementos do livro nunca foram adaptados
+                anteriormente. </p>
+            </div>
+            <div class="col-3">
+              <img src="imagens/walkerlindoamor.jpg" class="tam-img rounded ">
+            </div>
+          </div>
+          <p class="text-justify">As gravações já começaram em Vancouver, no Canadá, local utilizado também nas
+            temporadas anteriores. Segundo informações divulgadas pela produção, a série continuará buscando uma
+            adaptação fiel aos livros, algo muito elogiado pelos fãs desde a estreia da primeira temporada em 2023. O
+            elenco principal, formado por Walker Scobell, Leah Sava Jeffries e Aryan Simhadri, retorna para interpretar
+            Percy, Annabeth e Grover.</p>
+          <p class="text-justify mb-5">Além do sucesso entre os fãs, a série também conquistou números expressivos de
+            audiência e diversas indicações a premiações, tornando-se uma das produções originais mais assistidas do
+            Disney+. O anúncio antecipado da 3ª temporada, antes mesmo da estreia completa da segunda, demonstra a
+            confiança da Disney no crescimento da franquia e no impacto da saga para uma nova geração de espectadores.
+          </p>
+        </div>
+
+        <div class="claro carrossel justify-content-center align-items-start w-100 py-5 rounded ">
+          <h1 class="mb-5 d-flex justify-content-center titulo" id="fonte1">Saga Percy Jackson</h1>
+          <div class="row" w-75 py-3>
+
+            <div class="col-1 d-flex align-items-center justify-content-center">
+              <button onclick="voltar()" class="rounded-4 ms-auto seta claro btn">
+                <</button>
+            </div>
+
+            <div class="col-11">
+              <div class="row" id="">
+
+
+                <div class="col">
+                  <img src="imagens/raios.jpg" id="livro1" class="livros">
+                </div>
+
+                <div class="col ">
+                  <img src="imagens/mar-monstros.jpg" id="livro2" class="livros">
+                </div>
+
+                <div class="col">
+                  <img src="imagens/tita.jpg" id="livro3" class="livros">
+                </div>
+
+                <div class="col ">
+                  <img src="imagens/labirinto.jpg" id="livro4" class="livros">
+                </div>
+
+                <div class="col ">
+                  <img src="imagens/ultimo-olimpiano.jpg" href="idex2.html" id="livro5" class="livros">
+                </div>
+
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                  <button onclick="avancar()" class="rounded-4 ms-auto claro seta btn me-5">></button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+  </main>
+  <footer id="tema4" class="claro p-4 d-flex justify-content-around align-items-center">
+    <a class="titulo navbar-brand" href="#">WikiJackson</a>
+    <p class="mb-0 ms-3 a">Copyright © 2024 WikiJackson. Todos os direitos reservados.</p>
+    <p class="mb-0 a">By Naomy e Nathascha</p>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+
+</html>
